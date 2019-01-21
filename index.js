@@ -4,8 +4,6 @@ function takeANumber(line, name)
   return "Welcome, " + name + ". You are number " + line.length + " in line."
 }
 
-/*
-
 function nowServing(line)
 {
   if (line.length===0)
@@ -15,7 +13,7 @@ else
   var name = line.shift()
   return "Currently serving " + name + "."
 }
-} */
+} 
 
 function currentLine(line)
 {
