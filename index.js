@@ -10,8 +10,7 @@ function nowServing(line)
   return "There is nobody waiting to be served!"
 else
 {
-  var name = line[0]
-  line.splice(0,1)
+  var name = line.shift()
   return "Currently serving " + name + "."
 }
 }
@@ -24,7 +23,7 @@ function currentLine(line)
 else
 {for (var i=0; i<line.length; i++)
   {
-    inline += (i+1) + ". " + line[i] + ", "
+    inline.push() += (i+1) + ". " + line[i] + ", "
   }
   inline=inline.slice(0, inline.length-2)
   return "The line is currently: " + inline
