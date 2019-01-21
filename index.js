@@ -11,7 +11,7 @@ function nowServing(line)
 else
 {
   var name = line[0]
-  line.splice(0,1)
+ 
   return "Currently serving " + name + "."
 }
 }
