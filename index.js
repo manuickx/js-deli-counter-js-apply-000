@@ -1,17 +1,10 @@
-/* function takeANumber(line, name)
+function takeANumber(line, name)
 {
   line.push(name)
   return "Welcome, " + name + ". You are number " + line.length + " in line."
-} */
-
-var i=0
-function takeANumber (line)
-{
- i++
- line.push(i)
- return "Welcome your number is " + i + "."
 }
 
+/*
 
 function nowServing(line)
 {
@@ -22,7 +15,7 @@ else
   var name = line.shift()
   return "Currently serving " + name + "."
 }
-}
+} */
 
 function currentLine(line)
 {
